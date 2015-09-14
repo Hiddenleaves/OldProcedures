@@ -1,8 +1,8 @@
 CREATE OR REPLACE PROCEDURE SP_CAIWU_SAP_STOCK_DIANSHANG IS
 
-  /****
+  /*****************************
   给电商的条码汇总
-    **********************************************************************/
+    *****************************/
 
   V_LM_QTY          NUMBER;
   V_COUNT_ITEM_CODE NUMBER;

@@ -68,7 +68,7 @@ begin
        and VKORG in ('3002', '6002', '8102', '7001')
        and b.lfsta <> 'C';
 
-  --遍历游标计算未清;
+  --遍历游标计算未清订单;
   open cur_wm_unclear;
   fetch cur_wm_unclear bulk collect
     into r_wm_unclear;
